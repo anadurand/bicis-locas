@@ -17,7 +17,7 @@ if((name != "" && apell  != "") && (password != "" && bici != "")){
     alert("Error al ingresar Email: \n Ingresar email@domain.com");
   }
 
-  if(password.length != 6 || password == "password" || password == "123456" || password == "098754"){
+  if(password.length >= 6 || password == "password" || password == "123456" || password == "098754"){
     alert("Valor de password invalido, \n Ingresar password de 6 caracteres");
   }
   if(bici == "0"){
